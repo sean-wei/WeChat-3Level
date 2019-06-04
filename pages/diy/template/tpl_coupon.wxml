@@ -20,7 +20,7 @@
       <block wx:for="{{diyitem.data}}" wx:for-index="childid" wx:for-item="childitem" >
         <view class='gt_mask02tex'  bindtap="cartadd" data-id="{{item.id}}" data-credit="{{item.credit}}">
            <navigator url="/pages/sale/coupon/detail/index?id={{childitem.couponid}}" class='msj'>
-            <image src="/static/images/youhuiBg.png" class='gt_mask02View-Img'></image>
+            <image src="https://weiqing.jxbaidu.net/attachment/images/5/2019/05/wx_test/youhuiBg.png" class='gt_mask02View-Img'></image>
             <view class='ruzh clearfix'>
               <view class='flag_more clearfix '>
                 <view class='flag_moreLeft'>

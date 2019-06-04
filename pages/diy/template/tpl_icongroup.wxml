@@ -1,6 +1,17 @@
 <view class="fui-icon-group noborder col-{{diyitem.params.rownum}}" style="background:{{diyitem.style.background}}">
     <navigator bindtap="navigate" class="fui-icon-col" data-url="{{item.linkurl}}" wx:for="{{diyitem.data}}" wx:for-index="idx">
-        <view class="badge" style="background:{{diyitem.style.dotcolor}}" wx:if="{{item.dotnum>0}}">{{item.dotnum}}</view>
+        <!--<view class="badge" style="background:{{diyitem.style.dotcolor}}" wx:if="{{item.dotnum>0}}">{{item.dotnum}}</view>-->
+
+        <view class="badge" style="background:{{diyitem.style.dotcolor}}"
+              wx:if="{{item.linkurl=='/pages/member/cart/index'}}">{{member.statics.cart}}</view>
+        <view class="badge" style="background:{{diyitem.style.dotcolor}}"
+              wx:elseif="{{item.linkurl=='/pages/member/favorite/index'}}">{{member.statics.favorite}}</view>
+        <view class="badge" style="background:{{diyitem.style.dotcolor}}"
+              wx:elseif="{{item.linkurl=='/pages/member/coupon/index'}}">{{member.statics.coupon}}</view>
+        <!--<view class="badge" style="background:{{diyitem.style.dotcolor}}"-->
+              <!--wx:elseif="{{item.dotnum>0}}">{{item.dotnum}}</view>-->
+
+
         <view class="icon icon-green radius">
             <i class="icox {{item.iconclass}}" style="color:{{diyitem.style.iconcolor}}"></i>
         </view>

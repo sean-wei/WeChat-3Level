@@ -57,6 +57,8 @@ Page({
             bargainid: t.bargainid
         }), e.url(t), console.log(i.data.options), a.get("order/create", i.data.options, function(t) {
             if (console.log(t), 0 == t.error) {
+                console.log('wx-onLoad---',t);
+
                 console.log(t), r = i.getGoodsList(t.goods);
                 var s = (i.data.originalprice - t.goodsprice).toFixed(2);
                 i.setData({
@@ -86,6 +88,9 @@ Page({
                     goodslist: r,
                     merchs: t.merchs
                 }, 1800);
+
+
+
             } else a.toast(t.message, "loading"), setTimeout(function() {
                 wx.navigateBack();
             }, 1e3);

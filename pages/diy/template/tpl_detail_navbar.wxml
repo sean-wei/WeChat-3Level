@@ -11,7 +11,7 @@
         <view class="icox {{diyitem.params.shopiconclass}}" style="color:{{diyitem.style.iconcolor}}"></view>
         <view class="label" style="color:{{diyitem.style.textcolor}}">{{diyitem.params.shoptext}}</view>
     </navigator>
-    <navigator class="nav-item cart-item" id="menucart" openType="switchTab" url="/pages/member/cart/index" wx:if="{{diyitem.params.hidecart!=1}}">
+    <navigator class="nav-item cart-item" id="menucart" url="/pages/member/cart/index" wx:if="{{diyitem.params.hidecart!=1}}">
         <view class="badge {{goods.cartount<=0?'out':'in'}}" style="background:{{diyitem.style.dotcolor}}" wx:if="{{goods.cartcount&&limits}}">{{goods.cartcount}}</view>
         <view class="icox {{diyitem.params.carticonclass}}" style="color:{{diyitem.style.iconcolor}}"></view>
         <view class="label" style="color:{{diyitem.style.textcolor}}">{{diyitem.params.carttext}}</view>

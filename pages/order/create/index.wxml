@@ -180,6 +180,8 @@
                 </view>
             </view>
         </view>
+
+
         <view class="fui-list-group" wx:if="{{hasinvoice}}">
             <view class="fui-cell-group">
                 <view class="fui-cell">
@@ -196,6 +198,8 @@
                 </view>
             </view>
         </view>
+
+
         <view class="fui-mask" style="display:block" wx:if="{{invoicepicker}}"></view>
         <view class="{{invoicepicker?'invoice-picker':'invoice-picker invoice-pickernone'}}">
             <view bindtap="noinvoicepicker" style="flex: 1;"></view>
@@ -222,6 +226,8 @@
                 <view bindtap="confirminvoice" class="btn btn-danger">确定</view>
             </view>
         </view>
+
+
         <view class="fui-cell-group">
             <view class="fui-cell fui-cell-textarea">
                 <view class="fui-cell-label">
@@ -232,6 +238,8 @@
                 </view>
             </view>
         </view>
+
+
         <view class="fui-cell-group clearform" wx:if="{{diyform.fields!=null&&diyform.fields.length>0}}">
             <view bindtap="clearform" class="fui-cell">
                 <view class="fui-cell-info">表单</view>
@@ -239,6 +247,8 @@
                     <text class="icox icox-delete" style="font-size:26rpx"></text> 清空</view>
             </view>
         </view>
+
+
         <include src="/pages/common/diyform.wxml"></include>
         <include src="/pages/common/city-picker.wxml"></include>
         <view class="fui-mask {{showPicker||gift?'show':''}}"></view>

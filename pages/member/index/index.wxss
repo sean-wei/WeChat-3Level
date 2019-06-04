@@ -557,3 +557,169 @@
     z-index: 999;
     width: 100%;
 }
+
+/*add */
+/* pages/hyzx/hyzx.wxss */
+
+.r-arrow03 {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    position: absolute;
+    top: 50%;
+    right: 2px;
+    border-top: 1px solid #888;
+    border-right: 1px solid #888;
+    transform: rotate(45deg);
+    margin-right: 10px;
+    margin-top: -5px;
+}
+
+.listImgs {
+    width: 22px;
+    text-align: left;
+    float: left;
+    padding-top: 10px;
+    margin-right: 10px;
+}
+
+.shwla-ul {
+    background: #fff;
+    margin: 15px 10px;
+    border-radius: 15px;
+    padding: 10px 10px 10px 12px;
+    box-shadow: 0 7px 11px #f1f1f1;
+}
+
+.shwla-ulLi {
+    border-bottom: 1px solid #e8e8e8;
+    position: relative;
+    padding-left: 35px;
+}
+
+.shwla-ulLi:last-child {
+    border-bottom: none;
+}
+
+.shwlanavg {
+    height: 50px;
+    line-height: 50px;
+    overflow: hidden;
+}
+
+.listTexts {
+    color: #000;
+    font-size: 13px;
+}
+
+.liNavgitUl {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    position: relative;
+}
+
+.liNavgit {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    flex: 1;
+    min-width: 0;
+    text-align: center;
+}
+
+.user_order {
+    padding-top: 30px;
+    font-size: 12px;
+    text-align: center;
+    padding-bottom: 4px;
+    margin-top: 15px;
+}
+
+.listTextsRight {
+    color: #888;
+    font-size: 12px;
+    text-align: right;
+    float: right;
+    padding-right: 25px;
+}
+
+.psjen {
+    widows: 100%;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 30px;
+}
+
+.psjen-top {
+    padding: 20px 20px 50px;
+    text-align: center;
+}
+
+.psjen-topTouxian {
+    text-align: center;
+    margin: 0px auto 10px;
+}
+
+.faultpic {
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+}
+
+.faultpicNmes {
+    line-height: 2;
+    color: #fff;
+    font-size: 14px;
+}
+
+.huwnsn {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    position: relative;
+    background: #fff;
+    margin: 1px 12px 0px;
+    border-radius: 15px;
+    box-shadow: 0 7px 11px #f1f1f1;
+}
+
+.xmwj {
+    border-radius: 15px;
+    padding: 16px 10px 16px 10px;
+}
+
+.centerUlLI {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    flex: 1;
+    min-width: 0;
+    text-align: center;
+}
+
+.centerUlLI-bottom {
+    color: #888;
+    font-size: 12px;
+}
+
+.centerUlLI-top {
+    text-align: center;
+    color: #000;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.shwla-ulCenters {
+    position: absolute;
+    bottom: 10px;
+    left: 0px;
+    width: 100%;
+}
+

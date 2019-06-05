@@ -1,3 +1,4 @@
+<script src="index.js"></script>
 <view class="{{isIpx?'fui-iphonex-button':''}}"></view>
 <loading wx:if="{{!show}}">加载中...</loading>
 <view class="page footer {{paddingb}}" wx:if="{{show}}">

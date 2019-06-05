@@ -24,7 +24,7 @@
             <view class='ruzh clearfix'>
               <view class='flag_more clearfix '>
                 <view class='flag_moreLeft'>
-                  <view class='flag_moreCenter'>￥
+                  <view class='flag_moreCenter'>
                     <text class='textPrice'>{{childitem.price}}</text>
                   </view>
                 </view>
